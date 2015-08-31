@@ -1,11 +1,14 @@
 @import url(http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic);
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,700,300,600,800,400);
 
+/*JUHI: The one bit of css I wrote myself. I also tried my hand at javascript before I realized the template had what I wanted already in it.*/
+
+/*I understand the concept of specificity so I used it to make the paragraph sections align left. This makes the story more intuitive to read since it's formatted like an actual story and no longer centred like a poem.*/
 #shortStoryDiv p{
  text-align:left;
 }
 
-
+/*the rest was from the template. I may have made minor changes to a header, but I can't remember which one.*/
 body, html{
 	font-family: 'Lato', sans-serif;
 	text-rendering: optimizeLegibility !important;
